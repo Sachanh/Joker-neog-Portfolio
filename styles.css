@@ -60,6 +60,8 @@ body {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color:var(--green);
+
 }
 
 
@@ -170,7 +172,9 @@ body {
    text-decoration: none;
    padding: 0.5rem 1rem;
 }
-
+.link-2{
+    color:white;
+}
 
 
 .Navigation-1 a:hover {
@@ -290,7 +294,7 @@ body {
 
 
 .section-2 {
-    background-color: var(--purple);
+    background-color: var(--primary-color);
     padding: 2rem 1rem;
 }
 
@@ -302,7 +306,7 @@ body {
 }
 
 .project-detail{
-   background-color: var(--purple);
+   /* background-color: var(--purple); */
    padding: 2rem 1rem;
    text-align: center;
     color: var(--white);
@@ -313,7 +317,7 @@ body {
 .blogs-detail{
     padding: 2rem 1rem;
     text-align: center;
-    color: var(--dark);
+    color: var(--info);
     margin: auto;
 }
 
