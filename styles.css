@@ -270,14 +270,14 @@ body {
 
 /**lists **/
 
-.list-non-bullet {
+ .list-non-bullet {
     list-style: none;
-}
-
-.list-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
+    
+} 
+ .list-style{
+    
+    padding-bottom: 0.2rem;
+} 
 
 
 
@@ -327,14 +327,16 @@ body {
     border: inset;
     border-color: blueviolet;
     border-radius: 2rem;
+
 }
 
-.footer-header ul {
+ .footer-header ul {
     padding-inline-start: 0px;
-}
+} 
 
 .change{
     padding-bottom: 0.8rem;
+    text-align: center;
 }
 
 
