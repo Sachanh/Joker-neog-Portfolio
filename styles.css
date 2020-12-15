@@ -176,6 +176,7 @@ body {
 .link-2{
     color:white;
     border: #007bff;
+    text-decoration: none;
 }
 
 .link-2:hover{
