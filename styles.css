@@ -171,9 +171,18 @@ body {
 .link-1 {
    text-decoration: none;
    padding: 0.5rem 1rem;
+   border: white;
 }
 .link-2{
     color:white;
+    border: #007bff;
+}
+
+.link-2:hover{
+    color:var(--warning);
+}
+.link:hover{
+    color:var(--purple);
 }
 
 
