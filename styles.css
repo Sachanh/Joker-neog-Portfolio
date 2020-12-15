@@ -324,6 +324,9 @@ body {
     background-color: palegreen;
     padding: 2rem 1rem;
     text-align: center;
+    border: inset;
+    border-color: blueviolet;
+    border-radius: 2rem;
 }
 
 .footer-header ul {
