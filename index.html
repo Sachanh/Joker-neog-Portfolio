@@ -10,7 +10,6 @@
 </head>
 <body>
 
-  <!-- Nav -->
   <nav class="nav">
     <a class="nav-brand" href="/index.html">Himanshu.dev</a>
     <ul class="nav-links">
@@ -22,70 +21,130 @@
     </ul>
   </nav>
 
-  <!-- Hero -->
+  <!-- ── HERO ── -->
   <section class="hero" id="home">
     <div class="hero-inner">
-      <div class="hero-badge">🏆 ETHDenver Web3 Marketing Hackathon — Starknet Track Winner</div>
-      <h1>Himanshu Sachan<br><span class="gradient-text">GTM &amp; BD Lead</span></h1>
-      <p class="hero-desc">
-        8+ years driving Web3 growth and partnerships. Specializing in Go-To-Market strategy,
-        ecosystem development, and product-led growth across blockchain, DeFi, and
-        Layer&nbsp;1/Layer&nbsp;2 ecosystems.
-      </p>
-      <div class="hero-buttons">
-        <a href="https://linkedin.com/in/sachanh" target="_blank" rel="noopener" class="btn-primary">Connect on LinkedIn</a>
-        <a href="mailto:himanshumaheshraj0786@gmail.com" class="btn-outline">Get in Touch</a>
+      <div class="hero-text">
+        <div class="badges">
+          <span class="badge">🏆 ETHDenver Starknet Winner</span>
+          <span class="badge">🥇 STON.fi Vibe Coding Winner</span>
+        </div>
+        <h1>Himanshu Sachan<br><span class="gradient-text">GTM &amp; BD Lead</span></h1>
+        <p class="hero-desc">
+          8+ years driving Web3 growth and partnerships. Specializing in Go-To-Market
+          strategy, ecosystem development, and product-led growth across blockchain,
+          DeFi, and Layer&nbsp;1/Layer&nbsp;2 ecosystems.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://linkedin.com/in/sachanh" target="_blank" rel="noopener" class="btn-primary">Connect on LinkedIn</a>
+          <a href="mailto:himanshumaheshraj0786@gmail.com" class="btn-outline">Get in Touch</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat-pill"><div class="stat-number">8+</div><div class="stat-label">Years Exp.</div></div>
+          <div class="stat-pill"><div class="stat-number">100K+</div><div class="stat-label">Community MAU</div></div>
+          <div class="stat-pill"><div class="stat-number">500+</div><div class="stat-label">Enterprise Leads</div></div>
+          <div class="stat-pill"><div class="stat-number">98%</div><div class="stat-label">CAC Reduction</div></div>
+          <div class="stat-pill"><div class="stat-number">5K+</div><div class="stat-label">Web3 Mints</div></div>
+        </div>
       </div>
 
-      <div class="stats-grid">
-        <div class="stat-card">
-          <div class="stat-number">8+</div>
-          <div class="stat-label">Years Experience</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">100K+</div>
-          <div class="stat-label">Community MAU</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">500+</div>
-          <div class="stat-label">Enterprise Leads</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">5K+</div>
-          <div class="stat-label">Web3 Identity Mints</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">98%</div>
-          <div class="stat-label">CAC Reduction</div>
-        </div>
+      <!-- SVG Hero Graphic -->
+      <div class="hero-graphic">
+        <svg viewBox="0 0 480 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#6C63FF"/>
+              <stop offset="100%" stop-color="#0891b2"/>
+            </linearGradient>
+            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="#0891b2" stop-opacity="0.15"/>
+            </linearGradient>
+            <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur stdDeviation="6" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+            <filter id="softglow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="3" result="blur"/>
+              <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+
+          <!-- Outer orbit ring -->
+          <circle cx="240" cy="220" r="185" stroke="url(#grad1)" stroke-width="1" stroke-dasharray="6 8" opacity="0.3"/>
+          <!-- Inner orbit ring -->
+          <circle cx="240" cy="220" r="120" stroke="url(#grad1)" stroke-width="1" stroke-dasharray="3 6" opacity="0.25"/>
+
+          <!-- Connection lines -->
+          <line x1="240" y1="80" x2="380" y2="165" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="240" y1="80" x2="100" y2="165" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="380" y1="165" x2="380" y2="295" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="100" y1="165" x2="100" y2="295" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="380" y1="295" x2="240" y2="375" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="100" y1="295" x2="240" y2="375" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.4"/>
+          <line x1="240" y1="80" x2="240" y2="375" stroke="url(#grad1)" stroke-width="1" stroke-dasharray="3 6" opacity="0.2"/>
+
+          <!-- Center hexagon node -->
+          <polygon points="240,175 270,192 270,226 240,243 210,226 210,192" fill="url(#grad1)" filter="url(#glow)"/>
+          <polygon points="240,182 264,196 264,224 240,238 216,224 216,196" fill="white" opacity="0.25"/>
+          <text x="240" y="215" text-anchor="middle" font-size="24" font-family="sans-serif" filter="url(#softglow)">⛓️</text>
+
+          <!-- Satellite nodes -->
+          <!-- Top -->
+          <circle cx="240" cy="72" r="38" fill="white" filter="url(#softglow)"/>
+          <circle cx="240" cy="72" r="38" stroke="url(#grad1)" stroke-width="2" fill="url(#grad2)"/>
+          <text x="240" y="80" text-anchor="middle" font-size="22" font-family="sans-serif">🚀</text>
+
+          <!-- Right top -->
+          <circle cx="388" cy="160" r="33" fill="white" filter="url(#softglow)"/>
+          <circle cx="388" cy="160" r="33" stroke="url(#grad1)" stroke-width="2" fill="url(#grad2)"/>
+          <text x="388" y="168" text-anchor="middle" font-size="20" font-family="sans-serif">🔗</text>
+
+          <!-- Left top -->
+          <circle cx="92" cy="160" r="33" fill="white" filter="url(#softglow)"/>
+          <circle cx="92" cy="160" r="33" stroke="url(#grad1)" stroke-width="2" fill="url(#grad2)"/>
+          <text x="92" y="168" text-anchor="middle" font-size="20" font-family="sans-serif">💡</text>
+
+          <!-- Right bottom -->
+          <circle cx="388" cy="300" r="33" fill="white" filter="url(#softglow)"/>
+          <circle cx="388" cy="300" r="33" stroke="url(#grad1)" stroke-width="2" fill="url(#grad2)"/>
+          <text x="388" y="308" text-anchor="middle" font-size="20" font-family="sans-serif">📈</text>
+
+          <!-- Left bottom -->
+          <circle cx="92" cy="300" r="33" fill="white" filter="url(#softglow)"/>
+          <circle cx="92" cy="300" r="33" stroke="url(#grad1)" stroke-width="2" fill="url(#grad2)"/>
+          <text x="92" y="308" text-anchor="middle" font-size="20" font-family="sans-serif">🌐</text>
+
+          <!-- Bottom trophy node -->
+          <circle cx="240" cy="382" r="38" fill="url(#grad1)" filter="url(#glow)"/>
+          <text x="240" y="390" text-anchor="middle" font-size="24" font-family="sans-serif">🏆</text>
+
+          <!-- Floating dots on orbit -->
+          <circle cx="240" cy="35" r="5" fill="url(#grad1)" opacity="0.5"/>
+          <circle cx="425" cy="220" r="5" fill="url(#grad1)" opacity="0.5"/>
+          <circle cx="55" cy="220" r="5" fill="url(#grad1)" opacity="0.5"/>
+
+          <!-- Small accent dots -->
+          <circle cx="310" cy="128" r="4" fill="#6C63FF" opacity="0.4"/>
+          <circle cx="170" cy="128" r="4" fill="#0891b2" opacity="0.4"/>
+          <circle cx="340" cy="345" r="4" fill="#6C63FF" opacity="0.4"/>
+          <circle cx="140" cy="345" r="4" fill="#0891b2" opacity="0.4"/>
+        </svg>
       </div>
     </div>
   </section>
 
   <div class="divider"></div>
 
-  <!-- About -->
+  <!-- ── ABOUT ── -->
   <div class="section-wrap" id="about">
     <div class="about-grid">
       <div class="about-text">
         <span class="section-label">About Me</span>
         <h2 class="section-title">Web3 Growth Specialist</h2>
-        <p>
-          With <span class="hl">8+ years driving growth</span> and partnerships, I excel in
-          Go-To-Market strategy, ecosystem development, and product-led growth across
-          blockchain, DeFi, and Layer 1/Layer 2 ecosystems.
-        </p>
-        <p>
-          Currently <span class="hl">scaling Endless Domains' decentralized identity platform</span>
-          while building multi-chain ecosystem alliances with TON, Polygon, Aptos, Algorand,
-          and Avalanche. Simultaneously driving enterprise pipeline at Bitpulse across DeFi
-          and on-chain data infrastructure.
-        </p>
-        <p>
-          My track record spans growing communities from 0 to 100,000+ MAU, generating 500+
-          qualified enterprise leads at global Web3 events, and consistently cutting acquisition
-          cost through data-driven viral loops.
-        </p>
+        <p>With <span class="hl">8+ years driving growth</span> and partnerships, I excel in Go-To-Market strategy, ecosystem development, and product-led growth across blockchain, DeFi, and Layer 1/Layer 2 ecosystems.</p>
+        <p>Currently <span class="hl">scaling Endless Domains' decentralized identity platform</span> while building multi-chain ecosystem alliances with TON, Polygon, Aptos, Algorand, and Avalanche. Simultaneously driving enterprise pipeline at Bitpulse across DeFi and on-chain data infrastructure.</p>
+        <p>My track record spans growing communities from 0 to 100,000+ MAU, generating 500+ qualified enterprise leads at global Web3 events, and consistently cutting acquisition cost through data-driven viral loops.</p>
       </div>
       <div class="about-details">
         <div class="detail-row"><span class="ico">📍</span><span>Gurugram, India — Open to Remote &amp; Relocation</span></div>
@@ -93,281 +152,203 @@
         <div class="detail-row"><span class="ico">📱</span><span>+91-7355285578</span></div>
         <div class="detail-row"><span class="ico">🎓</span><span>BCA, Integral University, Lucknow — GPA 7.9</span></div>
         <div class="detail-row"><span class="ico">🏆</span><span>ETHDenver Starknet Track Winner (2025)</span></div>
+        <div class="detail-row"><span class="ico">🥇</span><span>STON.fi Vibe Coding Hackathon Winner</span></div>
         <div class="detail-row"><span class="ico">🔗</span><span>TON Nest Program Level 3 Alumni</span></div>
-        <div class="detail-row"><span class="ico">🚀</span><span>Beeloud Accelerator — wowTalkies cohort</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-band">
+    <div class="section-wrap" id="achievements">
+      <span class="section-label">Impact</span>
+      <h2 class="section-title">Key Achievements</h2>
+      <p class="section-sub">Measurable results that drove real business value across Web3 ecosystems.</p>
+      <div class="grid-3">
+        <div class="achievement-card">
+          <div class="ach-number">5×</div>
+          <div class="ach-title">Organic Social Growth</div>
+          <div class="ach-desc">Drove 5× organic social growth at Endless Domains, enabling 5,000+ Web3 identity mints on Polygon through strategic ecosystem content campaigns.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-number">100K+</div>
+          <div class="ach-title">Community MAU</div>
+          <div class="ach-desc">Scaled Masterverses Telegram Mini App from 0 to 100K+ MAU with 30,000+ DAUs and 120+ strategic partnerships — selected for TON Nest Level 3.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-number">98%</div>
+          <div class="ach-title">CAC Reduction</div>
+          <div class="ach-desc">Reduced user acquisition cost from $0.45 to $0.01 through viral campaign loops, cross-promotions, and data-driven in-app ad optimizations.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-number">500+</div>
+          <div class="ach-title">Enterprise Leads</div>
+          <div class="ach-desc">Acquired 500+ qualified enterprise leads across Token2049 Dubai, Singapore, ETHIndia &amp; IBW — targeting B2B and B2G Layer-0 blockchain markets.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-number">23K+</div>
+          <div class="ach-title">Waitlist Signups</div>
+          <div class="ach-desc">Generated 23,000+ pre-launch waitlist signups and 500+ first-month app downloads for wowTalkies with zero paid spend through organic community tactics.</div>
+        </div>
+        <div class="achievement-card">
+          <div class="ach-number">2×</div>
+          <div class="ach-title">Hackathon Winner</div>
+          <div class="ach-desc">Won ETHDenver Web3 Marketing Hackathon (Starknet Track, 2025) and STON.fi Vibe Coding Hackathon — recognising excellence in Web3 product and growth strategy.</div>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="divider"></div>
 
-  <!-- Achievements -->
-  <div class="section-wrap" id="achievements">
-    <span class="section-label">Impact</span>
-    <h2 class="section-title">Key Achievements</h2>
-    <p class="section-sub">Measurable results that drove real business value across Web3 ecosystems.</p>
-
-    <div class="grid-3">
-      <div class="achievement-card">
-        <div class="ach-number">5×</div>
-        <div class="ach-title">Organic Social Growth</div>
-        <div class="ach-desc">Drove 5× organic social growth at Endless Domains, enabling 5,000+ Web3 identity mints on Polygon through strategic ecosystem content campaigns.</div>
-      </div>
-      <div class="achievement-card">
-        <div class="ach-number">100K+</div>
-        <div class="ach-title">Community MAU</div>
-        <div class="ach-desc">Scaled Masterverses Telegram Mini App from 0 to 100K+ MAU with 30,000+ DAUs and 120+ strategic partnerships — selected for TON Nest Level 3.</div>
-      </div>
-      <div class="achievement-card">
-        <div class="ach-number">98%</div>
-        <div class="ach-title">CAC Reduction</div>
-        <div class="ach-desc">Reduced user acquisition cost from $0.45 to $0.01 through viral campaign loops, cross-promotions, and data-driven in-app ad optimizations.</div>
-      </div>
-      <div class="achievement-card">
-        <div class="ach-number">500+</div>
-        <div class="ach-title">Enterprise Leads</div>
-        <div class="ach-desc">Acquired 500+ qualified enterprise leads across Token2049 Dubai, Singapore, ETHIndia &amp; IBW — targeting B2B and B2G Layer-0 blockchain markets.</div>
-      </div>
-      <div class="achievement-card">
-        <div class="ach-number">23K+</div>
-        <div class="ach-title">Waitlist Signups</div>
-        <div class="ach-desc">Generated 23,000+ pre-launch waitlist signups and 500+ first-month app downloads for wowTalkies with zero paid spend through organic community tactics.</div>
-      </div>
-      <div class="achievement-card">
-        <div class="ach-number">300+</div>
-        <div class="ach-title">Qualified Leads</div>
-        <div class="ach-desc">Generated 300+ qualified global leads across Avalanche, Solana, Monad, and Algorand ecosystems while growing Bitpulse's social presence 3× in 2 months.</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <!-- Experience -->
+  <!-- ── EXPERIENCE ── -->
   <div class="section-wrap" id="experience">
     <span class="section-label">Career</span>
     <h2 class="section-title">Experience</h2>
     <p class="section-sub">A track record of scaling Web3 products and building ecosystem alliances.</p>
-
     <div class="timeline">
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Marketing &amp; BD Lead</div>
-            <div class="tl-company">Endless Domains</div>
-          </div>
+          <div><div class="tl-role">Marketing &amp; BD Lead</div><div class="tl-company">Endless Domains</div></div>
           <div class="tl-date">Jul 2025 – Present</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Leading product roadmap for decentralized identity and Web3 domain platform</li>
-            <li>Built strategic partnerships with TON, Polygon, Aptos, Algorand, and Avalanche ecosystems</li>
-            <li>Enabled 5,000+ Web3 identity mints on Polygon through ecosystem integration initiatives</li>
-            <li>Drove 4× organic social growth via strategic content campaigns and co-marketing</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Leading product roadmap for decentralized identity and Web3 domain platform</li>
+          <li>Built strategic partnerships with TON, Polygon, Aptos, Algorand, and Avalanche ecosystems</li>
+          <li>Enabled 5,000+ Web3 identity mints on Polygon through ecosystem integration initiatives</li>
+          <li>Drove 4× organic social growth via strategic content campaigns and co-marketing</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Sales Development Representative</div>
-            <div class="tl-company">Bitpulse</div>
-          </div>
+          <div><div class="tl-role">Sales Development Representative</div><div class="tl-company">Bitpulse</div></div>
           <div class="tl-date">Jul 2025 – Present</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Led enterprise outreach to DeFi protocols and L1/L2 ecosystems for on-chain data infrastructure adoption</li>
-            <li>Generated 300+ qualified global leads through targeted campaigns and ecosystem engagement</li>
-            <li>Grew social media presence 3× in 2 months through thought leadership in DeFi analytics</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Led enterprise outreach to DeFi protocols and L1/L2 ecosystems for on-chain data infrastructure</li>
+          <li>Generated 300+ qualified global leads through targeted campaigns and ecosystem engagement</li>
+          <li>Grew social media presence 3× in 2 months through thought leadership in DeFi analytics</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Head of Marketing — Masterverses TMA</div>
-            <div class="tl-company">BlockOn Ventures</div>
-          </div>
+          <div><div class="tl-role">Head of Marketing — Masterverses TMA</div><div class="tl-company">BlockOn Ventures</div></div>
           <div class="tl-date">Nov 2024 – Apr 2025</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Built and launched Telegram Mini App from Day Zero — scaled to 100,000+ users with 30,000+ DAUs</li>
-            <li>Closed 120+ strategic partnerships; reduced CAC by 98% (from $0.45 to $0.01)</li>
-            <li>Selected for TON Nest Program Level 3; doubled revenue within one month of launch</li>
-            <li>Analyzed 300K+ user actions to drive continuous product improvements</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Built and launched Telegram Mini App from Day Zero — scaled to 100,000+ users with 30,000+ DAUs</li>
+          <li>Closed 120+ strategic partnerships; reduced CAC by 98% (from $0.45 to $0.01)</li>
+          <li>Selected for TON Nest Program Level 3; doubled revenue within one month of launch</li>
+          <li>Analyzed 300K+ user actions to drive continuous product improvements</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Head of Product &amp; Marketing Strategy</div>
-            <div class="tl-company">BlockOn Group</div>
-          </div>
+          <div><div class="tl-role">Head of Product &amp; Marketing Strategy</div><div class="tl-company">BlockOn Group</div></div>
           <div class="tl-date">Jan 2024 – May 2025</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Led GTM strategy for Nuchain (Layer-0 blockchain) targeting B2B enterprises and B2G markets</li>
-            <li>Acquired 200+ qualified enterprise leads at Token2049 Dubai &amp; Singapore</li>
-            <li>Established co-marketing campaigns with blockchain protocols, validators, and Web3 providers</li>
-            <li>Collaborated on PRDs and product development for Web3 initiatives including Masterverses</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Led GTM strategy for Nuchain (Layer-0 blockchain) targeting B2B enterprises and B2G markets</li>
+          <li>Acquired 200+ qualified enterprise leads at Token2049 Dubai &amp; Singapore</li>
+          <li>Established co-marketing campaigns with blockchain protocols, validators, and Web3 providers</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Head of Marketing</div>
-            <div class="tl-company">wowTalkies (Fangage Pvt. Ltd.)</div>
-          </div>
+          <div><div class="tl-role">Head of Marketing</div><div class="tl-company">wowTalkies (Fangage Pvt. Ltd.)</div></div>
           <div class="tl-date">May 2022 – Dec 2023</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Scaled social channels from 0 to 5,000+ organic followers with zero paid spend</li>
-            <li>Generated 23,000+ pre-launch waitlist signups and 500+ first-month downloads</li>
-            <li>Managed 20,000+ on-chain transactions and 130K+ points distributed across 7+ on-chain communities</li>
-            <li>Won internal award for user traction &amp; growth; secured Beeloud accelerator selection</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Scaled social channels from 0 to 5,000+ organic followers with zero paid spend</li>
+          <li>Generated 23,000+ pre-launch waitlist signups and 500+ first-month downloads</li>
+          <li>Managed 20,000+ on-chain transactions; won internal award for user traction &amp; growth</li>
+          <li>Selected for Beeloud accelerator program; led investor relations</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Growth Manager</div>
-            <div class="tl-company">ASVA Labs</div>
-          </div>
+          <div><div class="tl-role">Growth Manager</div><div class="tl-company">ASVA Labs</div></div>
           <div class="tl-date">Jan 2022 – May 2022</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Managed token launch, influencer programs, PR campaigns, and community engagement</li>
-            <li>Launched Asva Warrior micro-influencer program — onboarded 50+ creators</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Managed token launch, influencer programs, PR campaigns, and community engagement</li>
+          <li>Launched Asva Warrior micro-influencer program — onboarded 50+ creators</li>
+        </ul></div>
       </div>
 
       <div class="tl-item">
         <div class="tl-header">
-          <div>
-            <div class="tl-role">Digital Marketing Executive</div>
-            <div class="tl-company">BlockTing</div>
-          </div>
-          <div class="tl-date">Sep 2021 – Jan 2022</div>
-        </div>
-        <div class="tl-body">
-          <ul>
-            <li>Supported customer success, built knowledge bases, and provided technical support</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tl-item">
-        <div class="tl-header">
-          <div>
-            <div class="tl-role">DB2 Database Administrator</div>
-            <div class="tl-company">HCL Technologies</div>
-          </div>
+          <div><div class="tl-role">DB2 Database Administrator</div><div class="tl-company">HCL Technologies</div></div>
           <div class="tl-date">Sep 2018 – Sep 2021</div>
         </div>
-        <div class="tl-body">
-          <ul>
-            <li>Managed DB2 production environments, Commvault backups, and incident resolution using ServiceNow &amp; Cherwell</li>
-            <li>Optimized database queries reducing response time by 30%; led patch and upgrade operations</li>
-          </ul>
-        </div>
+        <div class="tl-body"><ul>
+          <li>Managed DB2 production environments, Commvault backups, and incident resolution</li>
+          <li>Optimized database queries reducing response time by 30%</li>
+        </ul></div>
       </div>
 
     </div>
   </div>
 
-  <div class="divider"></div>
-
-  <!-- Skills -->
-  <div class="section-wrap" id="skills">
-    <span class="section-label">Expertise</span>
-    <h2 class="section-title">Skills</h2>
-    <p class="section-sub">A full-stack growth toolkit spanning Web3, marketing, and product development.</p>
-
-    <div class="skills-grid">
-      <div class="skill-cat">
-        <div class="skill-cat-name">Web3 GTM &amp; Growth</div>
-        <div class="tag-cloud">
-          <span class="tag">Go-To-Market Strategy</span>
-          <span class="tag">Product-Led Growth</span>
-          <span class="tag">Community Building</span>
-          <span class="tag">Lead Generation</span>
-          <span class="tag">Organic Social Growth</span>
-          <span class="tag">Sales Development</span>
+  <div class="section-band">
+    <div class="section-wrap" id="skills">
+      <span class="section-label">Expertise</span>
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">A full-stack growth toolkit spanning Web3, marketing, and product development.</p>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <div class="skill-cat-name">Web3 GTM &amp; Growth</div>
+          <div class="tag-cloud">
+            <span class="tag">Go-To-Market Strategy</span><span class="tag">Product-Led Growth</span>
+            <span class="tag">Community Building</span><span class="tag">Lead Generation</span>
+            <span class="tag">Organic Social Growth</span><span class="tag">Sales Development</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-cat">
-        <div class="skill-cat-name">Blockchain Ecosystems</div>
-        <div class="tag-cloud">
-          <span class="tag">DeFi Protocols</span>
-          <span class="tag">Layer 1 / Layer 2</span>
-          <span class="tag">Multi-Chain Integration</span>
-          <span class="tag">Decentralized Identity</span>
-          <span class="tag">On-Chain Analytics</span>
-          <span class="tag">Telegram Mini Apps</span>
+        <div class="skill-cat">
+          <div class="skill-cat-name">Blockchain Ecosystems</div>
+          <div class="tag-cloud">
+            <span class="tag">DeFi Protocols</span><span class="tag">Layer 1 / Layer 2</span>
+            <span class="tag">Multi-Chain Integration</span><span class="tag">Decentralized Identity</span>
+            <span class="tag">On-Chain Analytics</span><span class="tag">Telegram Mini Apps</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-cat">
-        <div class="skill-cat-name">Marketing &amp; Events</div>
-        <div class="tag-cloud">
-          <span class="tag">Event Marketing</span>
-          <span class="tag">Partnership Development</span>
-          <span class="tag">Influencer Marketing</span>
-          <span class="tag">Content Strategy</span>
-          <span class="tag">Brand Positioning</span>
-          <span class="tag">Email Marketing</span>
+        <div class="skill-cat">
+          <div class="skill-cat-name">Marketing &amp; Events</div>
+          <div class="tag-cloud">
+            <span class="tag">Event Marketing</span><span class="tag">Partnership Development</span>
+            <span class="tag">Influencer Marketing</span><span class="tag">Content Strategy</span>
+            <span class="tag">Brand Positioning</span><span class="tag">Email Marketing</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-cat">
-        <div class="skill-cat-name">Tools &amp; Platforms</div>
-        <div class="tag-cloud">
-          <span class="tag">Galxe</span>
-          <span class="tag">Zealy</span>
-          <span class="tag">Layer3</span>
-          <span class="tag">Questn</span>
-          <span class="tag">Airlyft</span>
-          <span class="tag">Mailchimp</span>
-          <span class="tag">Sendinblue</span>
-          <span class="tag">Google Analytics</span>
-          <span class="tag">Hootsuite</span>
-          <span class="tag">Jira</span>
-          <span class="tag">Notion</span>
+        <div class="skill-cat">
+          <div class="skill-cat-name">Tools &amp; Platforms</div>
+          <div class="tag-cloud">
+            <span class="tag">Galxe</span><span class="tag">Zealy</span><span class="tag">Layer3</span>
+            <span class="tag">Questn</span><span class="tag">Airlyft</span><span class="tag">Mailchimp</span>
+            <span class="tag">Google Analytics</span><span class="tag">Hootsuite</span>
+            <span class="tag">Jira</span><span class="tag">Notion</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-cat">
-        <div class="skill-cat-name">Product &amp; Strategy</div>
-        <div class="tag-cloud">
-          <span class="tag">PRD Writing</span>
-          <span class="tag">Product Lifecycle</span>
-          <span class="tag">Stakeholder Management</span>
-          <span class="tag">GTM Planning</span>
-          <span class="tag">Investor Relations</span>
-          <span class="tag">B2B / B2G Pipelines</span>
+        <div class="skill-cat">
+          <div class="skill-cat-name">Product &amp; Strategy</div>
+          <div class="tag-cloud">
+            <span class="tag">PRD Writing</span><span class="tag">Product Lifecycle</span>
+            <span class="tag">Stakeholder Management</span><span class="tag">GTM Planning</span>
+            <span class="tag">Investor Relations</span><span class="tag">B2B / B2G Pipelines</span>
+          </div>
         </div>
-      </div>
-      <div class="skill-cat">
-        <div class="skill-cat-name">Design &amp; UX</div>
-        <div class="tag-cloud">
-          <span class="tag">Figma</span>
-          <span class="tag">Canva</span>
-          <span class="tag">UX Research</span>
-          <span class="tag">Wireframing</span>
-          <span class="tag">WordPress</span>
-          <span class="tag">UX Audit</span>
+        <div class="skill-cat">
+          <div class="skill-cat-name">Design &amp; UX</div>
+          <div class="tag-cloud">
+            <span class="tag">Figma</span><span class="tag">Canva</span>
+            <span class="tag">UX Research</span><span class="tag">Wireframing</span>
+            <span class="tag">WordPress</span><span class="tag">UX Audit</span>
+          </div>
         </div>
       </div>
     </div>
@@ -375,12 +356,11 @@
 
   <div class="divider"></div>
 
-  <!-- Projects -->
+  <!-- ── PROJECTS ── -->
   <div class="section-wrap" id="projects">
     <span class="section-label">Work</span>
     <h2 class="section-title">Featured Projects</h2>
     <p class="section-sub">Products and campaigns that delivered measurable Web3 growth.</p>
-
     <div class="grid-3">
       <div class="project-card">
         <div class="proj-icon">🚀</div>
@@ -405,7 +385,7 @@
       <div class="project-card">
         <div class="proj-icon">⚡</div>
         <div class="proj-title">Nextus Mini App</div>
-        <div class="proj-desc">Defined client scope, managed feature roadmap, and drove the launch of a Tap-to-Earn Telegram Mini App with integrated bot automation and cross-platform responsiveness.</div>
+        <div class="proj-desc">Defined client scope, managed feature roadmap, and drove the launch of a Tap-to-Earn Telegram Mini App with integrated bot automation and full admin panel with CRUD APIs.</div>
       </div>
       <div class="project-card">
         <div class="proj-icon">🌴</div>
@@ -415,67 +395,53 @@
     </div>
   </div>
 
-  <div class="divider"></div>
-
-  <!-- Certifications -->
-  <div class="section-wrap" id="certifications">
-    <span class="section-label">Credentials</span>
-    <h2 class="section-title">Certifications &amp; Awards</h2>
-
-    <div class="cert-grid">
-      <div class="cert-item">
-        <span class="cert-ico">🏆</span>
-        <div>
-          <div class="cert-name">ETHDenver Starknet Track Winner</div>
-          <div class="cert-issuer">Web3 Marketing Hackathon · March 2025</div>
+  <div class="section-band">
+    <div class="section-wrap" id="certifications">
+      <span class="section-label">Credentials</span>
+      <h2 class="section-title">Certifications &amp; Awards</h2>
+      <div class="cert-grid">
+        <div class="cert-item">
+          <span class="cert-ico">🥇</span>
+          <div><div class="cert-name">STON.fi Vibe Coding Hackathon Winner</div><div class="cert-issuer">STON.fi · TON Ecosystem · 2025</div></div>
         </div>
-      </div>
-      <div class="cert-item">
-        <span class="cert-ico">✅</span>
-        <div>
-          <div class="cert-name">Digital Marketing Certified Associate</div>
-          <div class="cert-issuer">Simplilearn · January 2019</div>
+        <div class="cert-item">
+          <span class="cert-ico">🏆</span>
+          <div><div class="cert-name">ETHDenver Starknet Track Winner</div><div class="cert-issuer">Web3 Marketing Hackathon · March 2025</div></div>
         </div>
-      </div>
-      <div class="cert-item">
-        <span class="cert-ico">✅</span>
-        <div>
-          <div class="cert-name">Advanced Social Media Marketing</div>
-          <div class="cert-issuer">Simplilearn · December 2021</div>
+        <div class="cert-item">
+          <span class="cert-ico">🔗</span>
+          <div><div class="cert-name">TON Nest Program Level 3</div><div class="cert-issuer">TON Foundation · 2024</div></div>
         </div>
-      </div>
-      <div class="cert-item">
-        <span class="cert-ico">✅</span>
-        <div>
-          <div class="cert-name">Blockchain Mastery</div>
-          <div class="cert-issuer">Udemy · January 2021</div>
+        <div class="cert-item">
+          <span class="cert-ico">✅</span>
+          <div><div class="cert-name">Digital Marketing Certified Associate</div><div class="cert-issuer">Simplilearn · January 2019</div></div>
         </div>
-      </div>
-      <div class="cert-item">
-        <span class="cert-ico">✅</span>
-        <div>
-          <div class="cert-name">Google Digital Marketing Fundamentals</div>
-          <div class="cert-issuer">Google</div>
+        <div class="cert-item">
+          <span class="cert-ico">✅</span>
+          <div><div class="cert-name">Advanced Social Media Marketing</div><div class="cert-issuer">Simplilearn · December 2021</div></div>
         </div>
-      </div>
-      <div class="cert-item">
-        <span class="cert-ico">🎓</span>
-        <div>
-          <div class="cert-name">Postgraduate Program in UX Design</div>
-          <div class="cert-issuer">University of Texas at Austin</div>
+        <div class="cert-item">
+          <span class="cert-ico">✅</span>
+          <div><div class="cert-name">Google Digital Marketing Fundamentals</div><div class="cert-issuer">Google</div></div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-ico">✅</span>
+          <div><div class="cert-name">Blockchain Mastery</div><div class="cert-issuer">Udemy · January 2021</div></div>
+        </div>
+        <div class="cert-item">
+          <span class="cert-ico">🎓</span>
+          <div><div class="cert-name">Postgraduate Program in UX Design</div><div class="cert-issuer">University of Texas at Austin</div></div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Contact -->
+  <!-- ── CONTACT ── -->
   <div class="contact-band" id="contact">
     <div class="contact-inner">
-      <span class="section-label" style="display:block;text-align:center;">Contact</span>
-      <h2 class="section-title" style="text-align:center;">Let's Build Together</h2>
-      <p style="color:var(--text-secondary);margin-top:0.5rem;">
-        Open to Web3 GTM roles, BD partnerships, and ecosystem collaboration opportunities.
-      </p>
+      <span class="section-label">Contact</span>
+      <h2 class="section-title">Let's Build Together</h2>
+      <p>Open to Web3 GTM roles, BD partnerships, and ecosystem collaboration opportunities.</p>
       <div class="contact-links">
         <a class="contact-link" href="https://linkedin.com/in/sachanh" target="_blank" rel="noopener">💼 LinkedIn</a>
         <a class="contact-link" href="https://github.com/sachanh" target="_blank" rel="noopener">⚙️ GitHub</a>
