@@ -435,6 +435,13 @@ h1, h2, h3, h4 {
   text-align: center; display: block; margin: 2rem 0 0.5rem;
 }
 
+/* ── BOOTSTRAP ICON SIZING ────────────────────────────────────────── */
+.proj-icon i        { font-size: 1.3rem;  color: var(--ink); }
+.cert-ico i         { font-size: 1rem;    color: var(--muted); }
+.detail-card .ico i { font-size: 0.9rem;  color: var(--muted); }
+.cta-link i         { font-size: 0.9rem; }
+.hero-badge i       { font-size: 0.78rem; }
+
 /* ── SECTION BAND ─────────────────────────────────────────────────── */
 .bg-cream-2 { background: var(--cream-2); }
 
