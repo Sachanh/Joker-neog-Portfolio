@@ -321,6 +321,15 @@ h1, h2, h3, h4 {
   color: #fff;
   border-color: rgba(255,255,255,0.4);
 }
+.cta-link-primary {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.45);
+  color: #fff;
+  font-weight: 600;
+}
+.cta-link-primary:hover {
+  background: rgba(255,255,255,0.22);
+}
 
 /* ── FOOTER ───────────────────────────────────────────────────────── */
 .site-footer {
@@ -435,6 +444,23 @@ h1, h2, h3, h4 {
   text-align: center; display: block; margin: 2rem 0 0.5rem;
 }
 
+/* ── HERO PHOTO ───────────────────────────────────────────────────── */
+.hero-photo-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.hero-photo {
+  width: 100%;
+  max-width: 360px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 20px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.13);
+  filter: grayscale(10%);
+}
+
 /* ── BOOTSTRAP ICON SIZING ────────────────────────────────────────── */
 .proj-icon i        { font-size: 1.3rem;  color: var(--ink); }
 .cert-ico i         { font-size: 1rem;    color: var(--muted); }
@@ -453,4 +479,6 @@ h1, h2, h3, h4 {
   .hero-title-role { font-size: clamp(1.5rem, 6vw, 2.2rem); }
   .stats-wrap { gap: 0.5rem; }
   .stat-chip { min-width: 76px; padding: 0.7rem 0.85rem; }
+  .hero-photo-col { justify-content: center; order: -1; }
+  .hero-photo { max-width: 260px; }
 }
